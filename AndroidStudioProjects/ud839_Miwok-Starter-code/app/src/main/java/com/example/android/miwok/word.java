@@ -5,4 +5,22 @@ package com.example.android.miwok;
  */
 
 public class word {
+    private String mmiwok;
+    private String meng;
+
+    public word(String miwok,String eng)
+    {
+        mmiwok=miwok;
+        meng=eng;
+
+    }
+
+    public String getMmiwok()
+    {
+        return mmiwok;
+    }
+    public String getMeng()
+    {
+        return meng;
+    }
 }
